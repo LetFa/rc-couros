@@ -1,0 +1,26 @@
+{
+    "name": "letfa/rc-couros",
+    "description": "Site para vender carteiras e pulseiras em couros",
+    "license": "Proprietary",
+    "minimum-stability": "stable",
+    "authors": [
+        {
+            "name": "Letícia Farias",
+            "email": "lefarias111@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "App\\" : "app/"
+        },
+        "files": [
+            "app/Config.php"
+        ]
+    },
+    "require": {
+        "coffeecode/router": "*",
+        "coffeecode/datalayer": "1.1.8",
+        "league/plates" : "v3.4.0"
+    }
+}
