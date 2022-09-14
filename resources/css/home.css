@@ -1,0 +1,78 @@
+.carousel-control-next-icon {
+    background-image: url("https://o.remove.bg/downloads/26668483-0157-4dd3-ab38-47bb1167cd2c/Design_sem_nome__45_-removebg-preview.png");
+    width: 90px;
+    height: 60px;
+}
+
+.carousel-control-prev-icon {
+    background-image: url("https://o.remove.bg/downloads/4ff4a5ff-6b82-40ae-b5a5-bcda94b0c661/Design_sem_nome__46_-removebg-preview.png");
+    width: 90px;
+    height: 60px;
+}
+
+.carousel-inner {
+    height: 100vh;
+}
+
+.carousel-caption h5 {
+    margin-top: -570px;
+    font-size: 30pt;
+    border-radius: 10px;
+}
+
+.carousel-caption p {
+    font-size: 15pt;
+    border-radius: 10px;
+}
+
+/*nossas carteiras*/
+
+.texto {
+    position: relative;
+    display: inline-block;
+    font-size: 15pt;
+    margin: 8px;
+    margin-left: 42%;
+    margin-top: 50px;
+    font-family: 'Great Vibes', cursive;
+    margin-bottom: 50px;
+}
+
+.texto::before,
+.texto::after {
+    content: "";
+    position: absolute;
+    top: 0.65em;
+    width: 25em;
+    height: 0.05em;
+    background-color: #bbb;
+    left: -25.25em;
+}
+
+.texto::after {
+    left: initial;
+    right: -25.25em;
+}
+
+
+
+/*whats flutuando*/
+.gtm-whatsFlutuante a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #40c351;
+    width: 60px;
+    height: 61px;
+    border-radius: 100%;
+}
+
+.gtm-whatsFlutuante img {
+    width: 40px;
+}
+
+.gtm-whatsFlutuante {
+    position: fixed;
+    right: 20px;
+    bottom: 100px;
+}

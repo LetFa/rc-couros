@@ -1,0 +1,10 @@
+.logo-couros{
+    width: 30%;
+}
+.nav-link{
+    font-size: 15pt;
+    margin-left: 20px;
+}
+.nav-link:hover{
+  color: #E8B15E;
+}

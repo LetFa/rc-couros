@@ -5,6 +5,11 @@ define("SITE", [
     'name' => "RC-Couros"
 ]);
 
+function asset(string $pasta) : string{
+    $arquivo = SITE['url'] ."/resources/{$pasta}";
+    return $arquivo;
+}
+
 define('DATA_LAYER_CONFIG' , [
     "driver" => "mysql",
     "host" => "localhost",
