@@ -3,6 +3,7 @@
 
 <head>
   <title><?= $title ?></title>
+  <link rel="shortcut icon" href="<?= asset('storage/logo/favicon.ico')?>" type="image/x-icon">
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <!--CSS--->
