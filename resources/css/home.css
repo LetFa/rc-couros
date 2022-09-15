@@ -1,11 +1,11 @@
 .carousel-control-next-icon {
-    background-image: url("https://o.remove.bg/downloads/623add52-a218-413f-bddb-a3d0be497bd2/Design_sem_nome__45_-removebg-preview.png");
+    background-image: url("../storage/seta2.png");
     width: 90px;
     height: 80px;
 }
 
 .carousel-control-prev-icon {
-    background-image: url("https://o.remove.bg/downloads/604bac30-af6c-4a6b-8a4e-bb1b597b6af9/Design_sem_nome__46_-removebg-preview.png");
+    background-image: url("../storage/seta.png");
     width: 90px;
     height: 80px;
 }
@@ -24,6 +24,7 @@
     font-size: 15pt;
     border-radius: 10px;
 }
+
 
 /*nossas carteiras*/
 
@@ -54,6 +55,18 @@
     right: -25.25em;
 }
 
+.carteira{
+    margin-left: 70px;
+    width: 280px;
+    box-shadow: 2px 2px 2px rgba(187, 187, 187, 0.301);
+}
+.preco{
+    color: #E8B15E;
+}
+.botao{
+    color: white;
+    width: 110px;
+}
 
 
 /*whats flutuando*/

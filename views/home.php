@@ -48,5 +48,25 @@
         <div class="col-md-12">
             <div class="texto">MAIS VENDIDOS</div>
         </div>
-    </div>
-</div>
+        <div class="col-md-4">
+              <div class="card mb-4  carteira">
+
+                <figure id="fig1">
+                <img class="card-img-top" src="<?= asset('storage/carteiras/carteira1.png')?>" alt="Card image cap" onmouseover="this.src='<?= asset('storage/carteiras/carteira2.png')?>'" onmouseout="this.src='<?= asset('storage/carteiras/carteira1.png')?>'">
+                </figure>
+               
+
+                <div class="card-body">
+                  <p class="card-text text-center vibes fs">Lançamento carteira masculina</p>
+                  <p class="vibes preco text-center fw-bold fs">R$ 50,00</p>
+                  <p class="text-center">2x R$ 25,00</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <button type="button" class="btn btn-sm black botao ">Comprar</button>
+                    </div>
+                    <small class="text-muted">RC - Couros</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+       </div>
