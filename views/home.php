@@ -100,7 +100,7 @@
                 <div class="card mb-4  carteira">
 
                     <figure id="fig1">
-                        <img class="card-img-top" src="<?= asset('storage/carteiras/carteira3.png') ?>" alt="Card image cap" onmouseover="this.src='<?= asset('storage/carteiras/carteira2.png') ?>'" onmouseout="this.src='<?= asset('storage/carteiras/carteira3.png') ?>'">
+                        <img class="card-img-top" src="<?= asset('storage/carteiras/carteira4.png') ?>" alt="Card image cap" onmouseover="this.src='<?= asset('storage/carteiras/carteira2.png') ?>'" onmouseout="this.src='<?= asset('storage/carteiras/carteira3.png') ?>'">
                     </figure>
 
                     <div class="card-body">
