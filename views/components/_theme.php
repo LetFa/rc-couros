@@ -11,6 +11,8 @@
   <link rel="stylesheet" href="<?= asset('css/_classes.css')?>">
   <link rel="stylesheet" href="<?= asset('css/navbar.css')?>">
   <link rel="stylesheet" href="<?= asset('css/home.css')?>">
+   <!--font awesome-->
+   <script src="https://kit.fontawesome.com/bf7e05c402.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -24,7 +26,7 @@
   </main>
 
   <footer>
-
+    <?= $this->insert('components/footer')?>
   </footer>
 
   <!--Scripts--->
