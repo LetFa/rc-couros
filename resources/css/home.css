@@ -109,6 +109,48 @@
     margin-top: 10px;
     font-size: 15pt;
 }
+.titulo-global{
+    margin-top: -150px;
+}
+.titulo-pul{
+    position: relative;
+    display: inline-block;
+    margin: 8px;
+    margin-left: 42%;
+    margin-bottom: 50px;
+}
+
+.titulo-pul::before,
+.titulo-pul::after {
+    content: "";
+    position: absolute;
+    top: 0.65em;
+    width: 22em;
+    height: 0.05em;
+    background-color: #bbb;
+    left: -22.25em;
+}
+
+.titulo-pul::after {
+    left: initial;
+    right: -22.25em;
+}
+.button-pul{
+    margin-left: 40%;
+}
+.btn-pul{
+    border: none;
+    background-color: #E8B15E;
+    border-radius: 5px;
+    color: white;
+    width: 50%;
+    height: 60%;
+    font-size: 13pt;
+}
+.btn-pul:hover{
+    background-color: #232236;
+    color: #E8B15E;
+}
 
 /*whats flutuando*/
 .gtm-whatsFlutuante a {

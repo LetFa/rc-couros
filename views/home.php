@@ -192,14 +192,14 @@
     <div class="row">
         <div class="col-lg-3">
             <div class="text-center">
-                
+
                 <figure id="fig2">
-                <img src="<?= asset('storage/icones_grandes/carro1.png') ?>" onmouseover="this.src='<?= asset('storage/icones_grandes/carro.png')?>'" onmouseout="this.src='<?= asset('storage/icones_grandes/carro1.png')?>'" class="w-50" alt="">
+                    <img src="<?= asset('storage/icones_grandes/carro1.png') ?>" onmouseover="this.src='<?= asset('storage/icones_grandes/carro.png') ?>'" onmouseout="this.src='<?= asset('storage/icones_grandes/carro1.png') ?>'" class="w-50" alt="">
                 </figure>
 
                 <div class="icones-texto">
                     <h5 class="vibes">Enviamos</h1>
-                    <p>Para todos da região<br> de Birigui - SP</p>
+                        <p>Para todos da região<br> de Birigui - SP</p>
                 </div>
             </div>
 
@@ -208,45 +208,82 @@
             <div class="text-center">
 
                 <figure id="fig4">
-                <img src="<?= asset('storage/icones_grandes/cartao1.png')?>" onmouseover="this.src='<?= asset('storage/icones_grandes/cartao.png')?>'" onmouseout="this.src='<?= asset('storage/icones_grandes/cartao1.png')?>'" class="w-50" alt="">
+                    <img src="<?= asset('storage/icones_grandes/cartao1.png') ?>" onmouseover="this.src='<?= asset('storage/icones_grandes/cartao.png') ?>'" onmouseout="this.src='<?= asset('storage/icones_grandes/cartao1.png') ?>'" class="w-50" alt="">
                 </figure>
                 <div class="icones-texto2">
                     <h5 class="vibes">Formas de pagamentos</h1>
-                    <p>Cartão<br> PIX e em dinheiro</p>
+                        <p>Cartão<br> PIX e em dinheiro</p>
                 </div>
             </div>
         </div>
         <div class="col-lg-3">
             <div class="text-center">
-           
-            <figure id="fig2">
-                <img src="<?= asset('storage/icones_grandes/zap.png')?>" onmouseover="this.src='<?= asset('storage/icones_grandes/zap1.png')?>'" onmouseout="this.src='<?= asset('storage/icones_grandes/zap.png')?>'" class="w-50" alt="">
+
+                <figure id="fig2">
+                    <img src="<?= asset('storage/icones_grandes/zap.png') ?>" onmouseover="this.src='<?= asset('storage/icones_grandes/zap1.png') ?>'" onmouseout="this.src='<?= asset('storage/icones_grandes/zap.png') ?>'" class="w-50" alt="">
                 </figure>
 
                 <div class="icones-texto2">
                     <h5 class="vibes">Dúvidas?</h1>
-                    <p>Chamem<br>no Whatssap</p>
+                        <p>Chamem<br>no Whatssap</p>
                 </div>
             </div>
         </div>
         <div class="col-lg-3">
             <div class="text-center">
-            <figure id="fig2">
-                <img src="<?= asset('storage/icones_grandes/local.png')?>" onmouseover="this.src='<?= asset('storage/icones_grandes/local1.png')?>'" onmouseout="this.src='<?= asset('storage/icones_grandes/local.png')?>'" class="w-50" alt="">
+                <figure id="fig2">
+                    <img src="<?= asset('storage/icones_grandes/local.png') ?>" onmouseover="this.src='<?= asset('storage/icones_grandes/local1.png') ?>'" onmouseout="this.src='<?= asset('storage/icones_grandes/local.png') ?>'" class="w-50" alt="">
                 </figure>
 
                 <div class="icones-texto2">
                     <h5 class="vibes">Local</h1>
-                    <p>R. Guarani - Jardim Sao Braz <br>Birigui - SP, 16202-001
-</p>
+                        <p>R. Guarani - Jardim Sao Braz <br>Birigui - SP, 16202-001
+                        </p>
                 </div>
             </div>
         </div>
     </div>
 </div>
-
-<div class="gtm-whatsFlutuante">
-    <a target="_blank" href="">
-      <img src="https://img.icons8.com/color/48/000000/whatsapp--v1.png" alt="entre em contato conosco">
-    </a>
+<div class="cinza titulo-global">
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="text-center titulo-pul vibes fs">PULSEIRAS E ACESSÓRIOS</div>
+        </div>
+    </div>
 </div>
+    <div class="container">
+                <div class="row">
+                    <div class="col-md-5" data-aos="fade-right">
+                        <img class="featurette-image img-fluid mx-auto" src="<?= asset('storage/slider/banner.png') ?>" alt="pulseiras">
+                    </div>
+                    <div class="col-md-7" data-aos="fade-left">
+                        <h2 class="text-center vibes roxo mt-5 ">PULSEIRAS DE DIFRENTES MODELOS
+                        </h2>
+                        <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium in exercitationem cumque ut recusandae quo, facilis magni temporibus! Ad vero quisquam laborum quos ipsam laudantium fuga iusto praesentium blanditiis doloribus?</p>
+                        <ul class="cms-metas">
+                            <li><img  src="<?= asset('storage/seta3.png')?>" alt="">
+                                Acessórios masculino e feminino</li>
+                            <li><img  src="<?= asset('storage/seta3.png')?>" alt="">
+                                Paletas de cores</li>
+                            <li><img  src="<?= asset('storage/seta3.png')?>" alt="">
+                                Temos diversos tipos de fios</li>
+                            <li><img  src="<?= asset('storage/seta3.png')?>" alt="">
+                                Outro parágrafo
+                                 </li>
+                            <li><img  src="<?= asset('storage/seta3.png')?>" alt="">
+                                Segundo parágrafo </li>
+                        </ul>
+                        <div class="button-pul">
+                            <button class="btn-pul vibes">VER PULSEIRAS</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div> 
+    <div class="gtm-whatsFlutuante">
+        <a target="_blank" href="">
+            <img src="https://img.icons8.com/color/48/000000/whatsapp--v1.png" alt="entre em contato conosco">
+        </a>
+    </div>

@@ -8,3 +8,18 @@
 .fs{
     font-size: 15pt;
 }
+
+.cinza{
+    background-color: #f9f9f9;
+}
+.roxo{
+    color: #232236;
+    font-size: 13pt;
+    font-weight: bold;
+}
+.cms-metas img{
+   width: 30px;
+}
+.cms-metas li{
+    list-style: none;
+ }

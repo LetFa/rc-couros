@@ -11,6 +11,7 @@
   <link rel="stylesheet" href="<?= asset('css/_classes.css')?>">
   <link rel="stylesheet" href="<?= asset('css/navbar.css')?>">
   <link rel="stylesheet" href="<?= asset('css/home.css')?>">
+  <link rel="stylesheet" href="<?= asset('css/scroll.css')?>">
    <!--font awesome-->
    <script src="https://kit.fontawesome.com/bf7e05c402.js" crossorigin="anonymous"></script>
 </head>
@@ -38,7 +39,13 @@
   crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
   </script>
-
+  
+  <script src="<?= asset('js/scroll.js')?>"></script>
+  <script>
+    AOS.init({
+      duration: 1000,
+    });
+  </script>
 </body>
 
 </html>
