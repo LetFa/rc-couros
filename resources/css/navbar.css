@@ -5,6 +5,9 @@
     font-size: 15pt;
     margin-left: 20px;
 }
+.links{
+  margin-left: 35%;
+}
 .nav-link:hover{
   color: #E8B15E;
 }

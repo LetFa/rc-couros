@@ -23,6 +23,7 @@
         <span class="sr-only"></span>
     </a>
 </div>
+
 <div class="icones-grandes">
     <div class="container-fluid">
         <div class="row">
@@ -59,28 +60,7 @@
                 <div class="card mb-4  carteira">
 
                     <figure id="fig1">
-                        <img class="card-img-top" src="<?= asset('storage/carteiras/carteira1.png') ?>" alt="Card image cap" onmouseover="this.src='<?= asset('storage/carteiras/carteira2.png') ?>'" onmouseout="this.src='<?= asset('storage/carteiras/carteira1.png') ?>'">
-                    </figure>
-
-                    <div class="card-body">
-                        <p class="card-text text-center vibes fs">Lançamento carteira masculina</p>
-                        <p class="vibes preco text-center fw-bold fs">R$ 50,00</p>
-                        <p class="text-center">2x R$ 25,00</p>
-                        <div class="d-flex justify-content-between align-items-center">
-                            <div class="btn-group">
-                                <button type="button" class="btn btn-sm black botao ">Comprar</button>
-                            </div>
-                            <small class="text-muted">RC - Couros</small>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-lg-4">
-                <div class="card mb-4  carteira">
-
-                    <figure id="fig1">
-                        <img class="card-img-top" src="<?= asset('storage/carteiras/carteira2.png') ?>" alt="Card image cap" onmouseover="this.src='<?= asset('storage/carteiras/carteira3.png') ?>'" onmouseout="this.src='<?= asset('storage/carteiras/carteira2.png') ?>'">
+                        <img class="card-img-top img-car" src="<?= asset('storage/carteiras/carteira1.png') ?>">
                     </figure>
 
                     <div class="card-body">
@@ -100,7 +80,7 @@
                 <div class="card mb-4  carteira">
 
                     <figure id="fig1">
-                        <img class="card-img-top" src="<?= asset('storage/carteiras/carteira4.png') ?>" alt="Card image cap" onmouseover="this.src='<?= asset('storage/carteiras/carteira2.png') ?>'" onmouseout="this.src='<?= asset('storage/carteiras/carteira3.png') ?>'">
+                        <img class="card-img-top img-car1" src="<?= asset('storage/carteiras/carteira2.png') ?>">
                     </figure>
 
                     <div class="card-body">
@@ -120,7 +100,7 @@
                 <div class="card mb-4  carteira">
 
                     <figure id="fig1">
-                        <img class="card-img-top" src="<?= asset('storage/carteiras/carteira3.png') ?>" alt="Card image cap" onmouseover="this.src='<?= asset('storage/carteiras/carteira2.png') ?>'" onmouseout="this.src='<?= asset('storage/carteiras/carteira3.png') ?>'">
+                        <img class="card-img-top img-car2" src="<?= asset('storage/carteiras/carteira3.png') ?>" onmouseover="this.src='<?= asset('storage/carteiras/teste1.png') ?>'" onmouseout="this.src='<?= asset('storage/carteiras/carteira3.png') ?>'">
                     </figure>
 
                     <div class="card-body">
@@ -140,7 +120,7 @@
                 <div class="card mb-4  carteira">
 
                     <figure id="fig1">
-                        <img class="card-img-top" src="<?= asset('storage/carteiras/carteira3.png') ?>" alt="Card image cap" onmouseover="this.src='<?= asset('storage/carteiras/carteira2.png') ?>'" onmouseout="this.src='<?= asset('storage/carteiras/carteira3.png') ?>'">
+                        <img class="card-img-top img-car3" src="<?= asset('storage/carteiras/carteira4.png') ?>">
                     </figure>
 
                     <div class="card-body">
@@ -160,7 +140,27 @@
                 <div class="card mb-4  carteira">
 
                     <figure id="fig1">
-                        <img class="card-img-top" src="<?= asset('storage/carteiras/carteira3.png') ?>" alt="Card image cap" onmouseover="this.src='<?= asset('storage/carteiras/carteira2.png') ?>'" onmouseout="this.src='<?= asset('storage/carteiras/carteira3.png') ?>'">
+                        <img class="card-img-top img-car3" src="<?= asset('storage/carteiras/carteira4.png') ?>">
+                    </figure>
+
+                    <div class="card-body">
+                        <p class="card-text text-center vibes fs">Lançamento carteira masculina</p>
+                        <p class="vibes preco text-center fw-bold fs">R$ 50,00</p>
+                        <p class="text-center">2x R$ 25,00</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div class="btn-group">
+                                <button type="button" class="btn btn-sm black botao ">Comprar</button>
+                            </div>
+                            <small class="text-muted">RC - Couros</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="card mb-4  carteira">
+
+                    <figure id="fig1">
+                        <img class="card-img-top img-car3" src="<?= asset('storage/carteiras/carteira4.png') ?>">
                     </figure>
 
                     <div class="card-body">
@@ -181,14 +181,14 @@
         <div class="container-fluid">
             <div class="row">
                 <div class="col-md-12">
-                    <button type="submit" class="btn-produtos vibes">Ver todos os produtos</button>
+                    <a href="#" title="Veja mais..." class="btn1 vibes btn-balao-float-bottom"> <i class="icon icon-angle-down"></i> Veja mais...</a>
                 </div>
             </div>
         </div>
     </div>
 </div>
 
-<div class="container area-icones">
+<div class="container area-icones" data-aos="fade-up">
     <div class="row">
         <div class="col-lg-3">
             <div class="text-center">
@@ -244,46 +244,95 @@
         </div>
     </div>
 </div>
+
 <div class="cinza titulo-global">
-<div class="container-fluid">
-    <div class="row">
-        <div class="col-md-12">
-            <div class="text-center titulo-pul vibes fs">PULSEIRAS E ACESSÓRIOS</div>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="text-center titulo-pul vibes fs">PULSEIRAS E ACESSÓRIOS</div>
+            </div>
         </div>
     </div>
-</div>
     <div class="container">
-                <div class="row">
-                    <div class="col-md-5" data-aos="fade-right">
-                        <img class="featurette-image img-fluid mx-auto" src="<?= asset('storage/slider/banner.png') ?>" alt="pulseiras">
-                    </div>
-                    <div class="col-md-7" data-aos="fade-left">
-                        <h2 class="text-center vibes roxo mt-5 ">PULSEIRAS DE DIFRENTES MODELOS
-                        </h2>
-                        <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium in exercitationem cumque ut recusandae quo, facilis magni temporibus! Ad vero quisquam laborum quos ipsam laudantium fuga iusto praesentium blanditiis doloribus?</p>
-                        <ul class="cms-metas">
-                            <li><img  src="<?= asset('storage/seta3.png')?>" alt="">
-                                Acessórios masculino e feminino</li>
-                            <li><img  src="<?= asset('storage/seta3.png')?>" alt="">
-                                Paletas de cores</li>
-                            <li><img  src="<?= asset('storage/seta3.png')?>" alt="">
-                                Temos diversos tipos de fios</li>
-                            <li><img  src="<?= asset('storage/seta3.png')?>" alt="">
-                                Outro parágrafo
-                                 </li>
-                            <li><img  src="<?= asset('storage/seta3.png')?>" alt="">
-                                Segundo parágrafo </li>
-                        </ul>
-                        <div class="button-pul">
-                            <button class="btn-pul vibes">VER PULSEIRAS</button>
-                        </div>
-                    </div>
+        <div class="row">
+            <div class="col-md-5" data-aos="fade-right">
+                <img class="featurette-image img-fluid mx-auto" src="<?= asset('storage/slider/banner.png') ?>" alt="pulseiras">
+            </div>
+            <div class="col-md-7">
+                <h2 class="text-center vibes roxo mt-5 ">PULSEIRAS DE DIFRENTES MODELOS
+                </h2>
+                <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium in exercitationem cumque ut recusandae quo, facilis magni temporibus! Ad vero quisquam laborum quos ipsam laudantium fuga iusto praesentium blanditiis doloribus?</p>
+                <ul class="cms-metas">
+                    <li><img src="<?= asset('storage/seta3.png') ?>" alt="">
+                        Acessórios masculino e feminino</li>
+                    <li><img src="<?= asset('storage/seta3.png') ?>" alt="">
+                        Paletas de cores</li>
+                    <li><img src="<?= asset('storage/seta3.png') ?>" alt="">
+                        Temos diversos tipos de fios</li>
+                    <li><img src="<?= asset('storage/seta3.png') ?>" alt="">
+                        Outro parágrafo
+                    </li>
+                    <li><img src="<?= asset('storage/seta3.png') ?>" alt="">
+                        Segundo parágrafo </li>
+                </ul>
+                <div class="button-pul">
+                    <a href="#" title="Veja mais..." class="btn2 btn-balao-float-left vibes"> <i class="icon icon-comments"></i> Ver pulseiras</a>
                 </div>
             </div>
         </div>
-        </div> 
+    </div>
+</div>
+
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-7">
+            <h2 class="text-center vibes roxo mt-5 ">CORRENTES DE DIFRENTES MODELOS
+            </h2>
+            <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium in exercitationem cumque ut recusandae quo, facilis magni temporibus! Ad vero quisquam laborum quos ipsam laudantium fuga iusto praesentium blanditiis doloribus?</p>
+            <ul class="cms-metas">
+                <li><img src="<?= asset('storage/seta3.png') ?>" alt="">
+                    Correntes masculino e feminino</li>
+                <li><img src="<?= asset('storage/seta3.png') ?>" alt="">
+                    Paletas de pingentes</li>
+                <li><img src="<?= asset('storage/seta3.png') ?>" alt="">
+                    Temos diversos tipos de fios</li>
+                <li><img src="<?= asset('storage/seta3.png') ?>" alt="">
+                    Correntes em couro de diversas cores
+                </li>
+                <li><img src="<?= asset('storage/seta3.png') ?>" alt="">
+                    Segundo parágrafo </li>
+            </ul>
+            <div class="button-pul">
+                <a href="#" class="btnn vibes btn-balao-float-right"> <i class="icon icon-comment"></i> Ver correntes</a>
+            </div>
+
+        </div>
+        <div class="col-md-5" data-aos="fade-left">
+            <img class="featurette-image img-fluid mx-auto" src="<?= asset('storage/slider/banner2.png') ?>" alt="pulseiras">
+        </div>
+    </div>
+</div>
+</div>
+</div>
+
+<div class="cinza titulo-global1">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="text-center titulo-pul1 vibes fs">RECEBA TODAS AS PROMOÇÕES
+                </div>
+                <P class="text-center vibes fs">Quer receber as nossas ofertas? Cadastre-se e comece a recebê-las!</P>
+                <div class="">
+                    <input type="email" name="email" senha="email" placeholder="Email" class="form-control w-50" style="margin: auto;border-radius:20px;margin-bottom:50px;">
+                    <button type="submit" class="vibes btn-new fs black">Enviar</button>
+                </div>
+            </div>
+        </div>
+    </div>
     <div class="gtm-whatsFlutuante">
         <a target="_blank" href="">
             <img src="https://img.icons8.com/color/48/000000/whatsapp--v1.png" alt="entre em contato conosco">
         </a>
     </div>
+</div>
