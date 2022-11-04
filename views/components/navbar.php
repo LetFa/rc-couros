@@ -1,6 +1,6 @@
-<nav class="navbar navbar-expand-lg navbar-dark black open-sans sticky-top text-center nav-shadow align-items-center">
+<nav class="navbar navbar-expand-md navbar-dark fixed-top bg-light" style="box-shadow: 2px 2px 2px #bbb;">
     <div class="container" id="filter-btn-box">
-        <a href="<?= SITE ?>/" class="navbar-brand fs-5 fw-bold">
+        <a href="<?= $router->route('home.home') ?>" class="navbar-brand fs-5 fw-bold">
             <img class="logo-couros" src="<?= asset('storage/logo/logo.png') ?>">
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
@@ -10,3 +10,6 @@
            <?php require __DIR__ . "/links.php" ?>
     </div>
 </nav>
+
+
+     

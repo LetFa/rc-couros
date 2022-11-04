@@ -14,7 +14,22 @@ class Home extends Controller {
         $this->view->addData([
             'title' => 'Página inicia | ' . SITE['name']
         ]);
-        echo $this->view->render('home');
-    }    
+        echo $this->view->render("home");
+    }   
+    
+    public function sobre() {
+        $this->view->addData([
+            'title' => 'Página sobre | ' . SITE['name']
+        ]);
+        echo $this->view->render("sobre");
+    }   
+
+    public function contato() {
+        $this->view->addData([
+            'title' => 'Página contato | ' . SITE['name']
+        ]);
+        echo $this->view->render("contato");
+    }   
+
 
 }

@@ -1,0 +1,47 @@
+.contato{
+    background-color: #FEE600;
+    padding: 20px 10px;
+    color: black;
+    margin-bottom: 5rem;
+    margin-top: 4rem;
+    
+}
+
+.contato-1 h1{
+  color: black;
+  font-size: 15pt;
+}
+.contato-1 h2{
+    color: black;
+    font-size: 15pt;
+}
+.contato-icon{
+    font-size: 20pt;
+}
+
+
+.icon-row{
+    font-size: 15pt;
+    color: black;
+}
+
+.icon-row i{
+    font-size: 15pt;
+    color: #df261f;
+}
+
+.contato-local{
+    font-size: 15pt;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    color: black;
+}
+.contato-local i{
+    color: red;
+}
+
+.contato-2 h1{
+    font-size: 15pt;
+}
+
+

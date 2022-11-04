@@ -1,0 +1,19 @@
+@media (max-width:700px){
+    .contato-local iframe{
+        width: 300px;
+        height: 300px;
+    }
+    .contato{
+        margin-top: 6rem;
+    }
+    .contato-local{
+        font-size: 13pt;
+    }
+    .icon-row{
+        font-size: 13pt;
+    }
+    .btn-contato{
+        padding: 5px 5px;
+        font-size: 10pt;
+    }
+}

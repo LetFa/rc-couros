@@ -1,45 +1,33 @@
 <?php $this->layout('components/_theme') ?>
 
-<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-    <div class="carousel-inner">
-        <div class="carousel-item active">
-            <img class="d-block w-100" src="<?= asset('storage/slider/slider1.png') ?>" alt="First slide">
-            <div class="carousel-caption d-none d-md-block">
-            </div>
-        </div>
-        <div class="carousel-item">
-            <img class="d-block w-100" src="<?= asset('storage/slider/slider2.jpg') ?>" alt="Second slide">
-        </div>
-        <div class="carousel-item">
-            <img class="d-block w-100" src="<?= asset('storage/slider/slider3.jpg') ?>" alt="Third slide">
+<div class="container-fluid home">
+    <div class="row">
+        <div class="col-md-12 text-center home-1">
+            <h1><i class="bi bi-caret-right-fill"></i> Seja Bem-vindo(a)! <i class="bi bi-caret-left-fill"></i></h1>
+            <p class="mt-3">Venha conhecer a empresa RC - Robson Couros</p>
+            <p>Clica aqui</p>
+            <button class="btn btn-dark">Saiba mais</button>
         </div>
     </div>
-    <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="sr-only"></span>
-    </a>
-    <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="sr-only"></span>
-    </a>
 </div>
 
 <div class="icones-grandes">
     <div class="container-fluid">
         <div class="row">
             <div class="col-md-12">
-                <div class="texto">NOSSAS CARTEIRAS</div>
+                <h1 class="text-center mt-5 texto">Nossas Carteiras</h1>
             </div>
-            <div class="col-lg-4">
-                <h1 class="text-center vibes fs">Materias sustentáveis</h1>
+            
+            <div class="col-lg-4 mt-5">
+                <h1 class="text-center fs">Materias sustentáveis</h1>
                 <p class="text-center">Nossos tecidos são produzidos <br> com o menor impacto ambiental possível.<br> Sem origem animal.</p>
             </div>
-            <div class="col-lg-4">
-                <h1 class="text-center vibes fs">Feito á mão</h1>
+            <div class="col-lg-4 mt-5">
+                <h1 class="text-center  fs">Feito á mão</h1>
                 <p class="text-center ">Valorizamos a mão de obra <br> e contribuímos para o aumento da <br> economia local.</p>
             </div>
-            <div class="col-lg-4">
-                <h1 class="text-center vibes fs">Modo Atemporal</h1>
+            <div class="col-lg-4 mt-5">
+                <h1 class="text-center  fs">Modo Atemporal</h1>
                 <p class="text-center">Qualidade e design duradouros.<br> Para todos os corpos<br> e gêneros.</p>
             </div>
         </div>
@@ -48,15 +36,15 @@
     <div class="container-fluid">
         <div class="row">
             <div class="col-md-12">
-                <div class="texto">MAIS VENDIDOS</div>
+                <div class="texto text-center mt-5" >Mais vendidos</div>
             </div>
         </div>
     </div>
 
 
-    <div class="container">
+    <div class="container mt-5">
         <div class="row">
-            <div class="col-lg-4">
+            <div class="col-lg-3">
                 <div class="card mb-4  carteira">
 
                     <figure id="fig1">
@@ -65,18 +53,18 @@
 
                     <div class="card-body">
                         <p class="card-text text-center vibes fs">Lançamento carteira masculina</p>
-                        <p class="vibes preco text-center fw-bold fs">R$ 50,00</p>
-                        <p class="text-center">2x R$ 25,00</p>
+                        <p class="text-center fw-bold fs">R$ 50,00</p>
+                        <p class="text-center text-danger">2x R$ 25,00</p>
                         <div class="d-flex justify-content-between align-items-center">
                             <div class="btn-group">
-                                <button type="button" class="btn btn-sm black botao ">Comprar</button>
+                                <button type="button" class="btn btn-dark">Comprar</button>
                             </div>
                             <small class="text-muted">RC - Couros</small>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="col-lg-4">
+            <div class="col-lg-3">
                 <div class="card mb-4  carteira">
 
                     <figure id="fig1">
@@ -85,18 +73,18 @@
 
                     <div class="card-body">
                         <p class="card-text text-center vibes fs">Lançamento carteira masculina</p>
-                        <p class="vibes preco text-center fw-bold fs">R$ 50,00</p>
-                        <p class="text-center">2x R$ 25,00</p>
+                        <p class="text-center fw-bold fs">R$ 50,00</p>
+                        <p class="text-center text-danger">2x R$ 25,00</p>
                         <div class="d-flex justify-content-between align-items-center">
                             <div class="btn-group">
-                                <button type="button" class="btn btn-sm black botao ">Comprar</button>
+                                <button type="button" class="btn btn-dark ">Comprar</button>
                             </div>
                             <small class="text-muted">RC - Couros</small>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="col-lg-4">
+            <div class="col-lg-3">
                 <div class="card mb-4  carteira">
 
                     <figure id="fig1">
@@ -105,18 +93,18 @@
 
                     <div class="card-body">
                         <p class="card-text text-center vibes fs">Lançamento carteira masculina</p>
-                        <p class="vibes preco text-center fw-bold fs">R$ 50,00</p>
-                        <p class="text-center">2x R$ 25,00</p>
+                        <p class="text-center fw-bold fs">R$ 50,00</p>
+                        <p class="text-center text-danger">2x R$ 25,00</p>
                         <div class="d-flex justify-content-between align-items-center">
                             <div class="btn-group">
-                                <button type="button" class="btn btn-sm black botao ">Comprar</button>
+                                <button type="button" class="btn btn-dark">Comprar</button>
                             </div>
                             <small class="text-muted">RC - Couros</small>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="col-lg-4">
+            <div class="col-lg-3">
                 <div class="card mb-4  carteira">
 
                     <figure id="fig1">
@@ -125,18 +113,18 @@
 
                     <div class="card-body">
                         <p class="card-text text-center vibes fs">Lançamento carteira masculina</p>
-                        <p class="vibes preco text-center fw-bold fs">R$ 50,00</p>
-                        <p class="text-center">2x R$ 25,00</p>
+                        <p class=" text-center fw-bold fs">R$ 50,00</p>
+                        <p class="text-center text-danger">2x R$ 25,00</p>
                         <div class="d-flex justify-content-between align-items-center">
                             <div class="btn-group">
-                                <button type="button" class="btn btn-sm black botao ">Comprar</button>
+                                <button type="button" class="btn btn-dark">Comprar</button>
                             </div>
                             <small class="text-muted">RC - Couros</small>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="col-lg-4">
+            <div class="col-lg-3">
                 <div class="card mb-4  carteira">
 
                     <figure id="fig1">
@@ -145,18 +133,18 @@
 
                     <div class="card-body">
                         <p class="card-text text-center vibes fs">Lançamento carteira masculina</p>
-                        <p class="vibes preco text-center fw-bold fs">R$ 50,00</p>
-                        <p class="text-center">2x R$ 25,00</p>
+                        <p class="text-center fw-bold fs">R$ 50,00</p>
+                        <p class="text-center text-danger">2x R$ 25,00</p>
                         <div class="d-flex justify-content-between align-items-center">
                             <div class="btn-group">
-                                <button type="button" class="btn btn-sm black botao ">Comprar</button>
+                                <button type="button" class="btn btn-dark">Comprar</button>
                             </div>
                             <small class="text-muted">RC - Couros</small>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="col-lg-4">
+            <div class="col-lg-3">
                 <div class="card mb-4  carteira">
 
                     <figure id="fig1">
@@ -165,23 +153,69 @@
 
                     <div class="card-body">
                         <p class="card-text text-center vibes fs">Lançamento carteira masculina</p>
-                        <p class="vibes preco text-center fw-bold fs">R$ 50,00</p>
-                        <p class="text-center">2x R$ 25,00</p>
+                        <p class="text-center fw-bold fs">R$ 50,00</p>
+                        <p class="text-center text-danger">2x R$ 25,00</p>
 
                         <div class="d-flex justify-content-between align-items-center">
                             <div class="btn-group">
-                                <button type="button" class="btn btn-sm black botao ">Comprar</button>
+                                <button type="button" class="btn btn-dark">Comprar</button>
                             </div>
                             <small class="text-muted">RC - Couros</small>
                         </div>
                     </div>
                 </div>
             </div>
+            <div class="col-lg-3">
+                <div class="card mb-4  carteira">
+
+                    <figure id="fig1">
+                        <img class="card-img-top img-car3" src="<?= asset('storage/carteiras/carteira4.png') ?>">
+                    </figure>
+
+                    <div class="card-body">
+                        <p class="card-text text-center vibes fs">Lançamento carteira masculina</p>
+                        <p class="text-center fw-bold fs">R$ 50,00</p>
+                        <p class="text-center text-danger">2x R$ 25,00</p>
+
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div class="btn-group">
+                                <button type="button" class="btn btn-dark">Comprar</button>
+                            </div>
+                            <small class="text-muted">RC - Couros</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3">
+                <div class="card mb-4  carteira">
+
+                    <figure id="fig1">
+                        <img class="card-img-top img-car3" src="<?= asset('storage/carteiras/carteira4.png') ?>">
+                    </figure>
+
+                    <div class="card-body">
+                        <p class="card-text text-center vibes fs">Lançamento carteira masculina</p>
+                        <p class="text-center fw-bold fs">R$ 50,00</p>
+                        <p class="text-center text-danger">2x R$ 25,00</p>
+
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div class="btn-group">
+                                <button type="button" class="btn btn-dark">Comprar</button>
+                            </div>
+                            <small class="text-muted">RC - Couros</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
         </div>
         <div class="container-fluid">
             <div class="row">
                 <div class="col-md-12">
-                    <a href="#" title="Veja mais..." class="btn1 vibes btn-balao-float-bottom"> <i class="icon icon-angle-down"></i> Veja mais...</a>
+                    <a href="#" title="Veja mais..." class="btn1 btn-balao-float-bottom"> <i class="icon icon-angle-down"></i> Veja mais...</a>
                 </div>
             </div>
         </div>
@@ -245,11 +279,11 @@
     </div>
 </div>
 
-<div class="cinza titulo-global">
+<div class="cinza ">
     <div class="container-fluid">
         <div class="row">
             <div class="col-md-12">
-                <div class="text-center titulo-pul vibes fs">PULSEIRAS E ACESSÓRIOS</div>
+                <div class="text-center mt-5 fs">PULSEIRAS E ACESSÓRIOS</div>
             </div>
         </div>
     </div>
@@ -320,16 +354,19 @@
     <div class="container-fluid">
         <div class="row">
             <div class="col-md-12">
-                <div class="text-center titulo-pul1 vibes fs">RECEBA TODAS AS PROMOÇÕES
+                <div class="text-center fs">RECEBA TODAS AS PROMOÇÕES
                 </div>
                 <P class="text-center vibes fs">Quer receber as nossas ofertas? Cadastre-se e comece a recebê-las!</P>
                 <div class="">
                     <input type="email" name="email" senha="email" placeholder="Email" class="form-control w-50" style="margin: auto;border-radius:20px;margin-bottom:50px;">
-                    <button type="submit" class="vibes btn-new fs black">Enviar</button>
+                    <div class="text-center">
+                        <button class="btn btn-dark">Enviar</button>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
+
     <div class="gtm-whatsFlutuante">
         <a target="_blank" href="">
             <img src="https://img.icons8.com/color/48/000000/whatsapp--v1.png" alt="entre em contato conosco">

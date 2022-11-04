@@ -1,92 +1,33 @@
-.carousel-control-next-icon {
-    background-image: url("../storage/seta2.png");
-    width: 90px;
-    height: 80px;
+.home{
+    padding-top: 15rem;
+    background-image: url('../storage/slider/teste1.png');
+    padding-bottom: 10rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.home-1 h1{
+   color: black;
 }
 
-.carousel-control-prev-icon {
-    background-image: url("../storage/seta.png");
-    width: 90px;
-    height: 80px;
+.home-1 i {
+    color: #FEE600;
 }
-
-.carousel-inner {
-    height: 100vh;
-}
-
-.carousel-caption h5 {
-    margin-top: -570px;
-    font-size: 30pt;
-    border-radius: 10px;
-}
-
-.carousel-caption p {
-    font-size: 15pt;
-    border-radius: 10px;
-}
-
 
 /*nossas carteiras*/
 
 .texto {
-    position: relative;
-    display: inline-block;
-    font-size: 15pt;
-    margin: 8px;
-    margin-left: 42%;
-    margin-top: 50px;
-    font-family: 'Great Vibes', cursive;
-    margin-bottom: 50px;
+   color: black;
+   font-size: 20pt;
 }
 
-.texto::before,
-.texto::after {
-    content: "";
-    position: absolute;
-    top: 0.65em;
-    width: 25em;
-    height: 0.05em;
-    background-color: #bbb;
-    left: -25.25em;
-}
 
-.texto::after {
-    left: initial;
-    right: -25.25em;
-}
 
 .carteira {
     margin-left: 10px;
-
-    box-shadow: 2px 2px 2px rgba(187, 187, 187, 0.301);
+    box-shadow: 2px 2px 2px #bbb;
 }
 
-.preco {
-    color: black;
-}
-
-.botao {
-    color: white;
-    width: 110px;
-}
-
-.btn-produtos {
-    margin-top: 90px;
-    margin-bottom: 90px;
-    border: none;
-    width: 250px;
-    height: 50px;
-    background-color: black;
-    color: white;
-    margin-left: 40%;
-    font-size: 15pt;
-}
-
-.btn-produtos:hover {
-    background-color: #E8B15E;
-    color: black;
-    font-size: 15pt;
-}
 
 .icones-grandes {
     background-color: #f9f9f9;
@@ -132,21 +73,8 @@
     margin-bottom: 50px;
 }
 
-.titulo-pul::before,
-.titulo-pul::after {
-    content: "";
-    position: absolute;
-    top: 0.65em;
-    width: 22em;
-    height: 0.05em;
-    background-color: #bbb;
-    left: -22.25em;
-}
 
-.titulo-pul::after {
-    left: initial;
-    right: -22.25em;
-}
+
 
 
 .titulo-pul1 {
@@ -157,34 +85,11 @@
     margin-bottom: 50px;
 }
 
-.titulo-pul1::before,
-.titulo-pul1::after {
-    content: "";
-    position: absolute;
-    top: 0.65em;
-    width: 22em;
-    height: 0.05em;
-    background-color: #bbb;
-    left: -22.25em;
-}
 
-.titulo-pul1::after {
-    left: initial;
-    right: -22.25em;
-}
 
-.btn-new {
-    color: white;
-    border-radius: 20px;
-    width: 10%;
-    margin-bottom: 50px;
-    margin-left: 43%;
-}
 
-.btn-new:hover {
-    color: #E8B15E;
 
-}
+
 
 .button-pul {
     margin-left: 40%;
@@ -202,7 +107,7 @@
 
 .btn-pul:hover {
     background-color: #232236;
-    color: #E8B15E;
+    color: #FEE600;
 }
 
 
@@ -291,7 +196,7 @@
 
     -webkit-transform: translateY(10px);
     transform: translateY(10px);
-    color: #E8B15E;
+    color: #FEE600;
 }
 
 .btn-balao-float-bottom:hover:before,
@@ -353,7 +258,7 @@
 .btn-balao-float-left:active {
     -webkit-transform: translateX(10px);
     transform: translateX(10px);
-    color: #E8B15E;
+    color: #FEE600;
 }
 
 .btn-balao-float-left:hover:before,
@@ -414,7 +319,7 @@
 .btn-balao-float-right:active {
     -webkit-transform: translateX(-10px);
     transform: translateX(-10px);
-    color: #E8B15E;
+    color: #FEE600;
 }
 
 .btn-balao-float-right:hover:before,
