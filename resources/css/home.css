@@ -1,10 +1,11 @@
 .home{
-    padding-top: 15rem;
-    background-image: url('../storage/slider/teste1.png');
+    background-image: url('../storage/slider/teste.jpeg');
     padding-bottom: 10rem;
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    height: 100vh;
+    width: 100%;
 }
 .home-1 h1{
    color: black;
@@ -33,36 +34,38 @@
     background-color: #f9f9f9;
 }
 
-.area-icones {
-    margin-top: 50px;
-    margin-bottom: 20%;
+.area-icones{
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+.area-icones i{
+    font-size: 30pt;
+    color: rgb(50, 45, 78);
 }
 
-.icones-texto h5 {
-    font-size: 16pt;
-    margin-top: -6px;
-}
 
 .icones-texto p {
-    font-size: 15pt;
+    font-size: 14pt;
 }
 
-.icones-texto2 h5 {
-    margin-top: 13px;
-    font-size: 16pt;
-}
 
-.icones-texto2 p {
-    margin-top: 10px;
-    font-size: 15pt;
-}
+
 
 .titulo-global {
     margin-top: -150px;
 }
 
 .titulo-global1 {
-    margin-top: 40px;
+    margin-top: 2rem;
+    background-color: rgb(50, 45, 78);
+    margin-bottom: 2rem;
+    color: white;
+}
+.titulo-global1 h1{
+    padding-top: 2rem;
+    font-weight: bold;
+    color: white;
+    font-size: 18pt;
 }
 
 .titulo-pul {
@@ -84,12 +87,6 @@
     margin-left: 37%;
     margin-bottom: 50px;
 }
-
-
-
-
-
-
 
 .button-pul {
     margin-left: 40%;
@@ -196,7 +193,8 @@
 
     -webkit-transform: translateY(10px);
     transform: translateY(10px);
-    color: #FEE600;
+    color: white;
+
 }
 
 .btn-balao-float-bottom:hover:before,
@@ -205,7 +203,7 @@
 
     -webkit-transform: translateY(-10px);
     transform: translateY(-10px);
-
+    
 }
 
 
@@ -258,7 +256,7 @@
 .btn-balao-float-left:active {
     -webkit-transform: translateX(10px);
     transform: translateX(10px);
-    color: #FEE600;
+    color: white;
 }
 
 .btn-balao-float-left:hover:before,
@@ -319,7 +317,7 @@
 .btn-balao-float-right:active {
     -webkit-transform: translateX(-10px);
     transform: translateX(-10px);
-    color: #FEE600;
+    color: white;
 }
 
 .btn-balao-float-right:hover:before,
@@ -350,4 +348,13 @@
     position: fixed;
     right: 20px;
     bottom: 100px;
+}
+
+.cms-metas i {
+    color: rgb(50, 45, 78);
+}
+
+.titulo-corrente{
+    font-weight: bold;
+    font-size: 13pt;
 }

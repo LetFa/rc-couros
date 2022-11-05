@@ -16,4 +16,14 @@
         padding: 5px 5px;
         font-size: 10pt;
     }
+    .btn-enviar input{
+        width: 100% !important;
+    }
+}
+
+@media (max-width:370px){
+    .titulo-global1 h1 {
+        font-size: 15pt;
+    }
+
 }

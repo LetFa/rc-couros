@@ -1,7 +1,7 @@
 .contato{
-    background-color: #FEE600;
+    background-color: rgb(50, 45, 78);
     padding: 20px 10px;
-    color: black;
+    color: white;
     margin-bottom: 5rem;
     margin-top: 4rem;
     
@@ -27,7 +27,7 @@
 
 .icon-row i{
     font-size: 15pt;
-    color: #df261f;
+    color: rgb(50, 45, 78);
 }
 
 .contato-local{
